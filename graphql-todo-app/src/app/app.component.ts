@@ -3,9 +3,9 @@ import {Apollo} from 'apollo-angular';
 import gql from 'graphql-tag';
 
 const helloWorld = gql`
-{
-  helloWorld
-}
+  {
+    helloWorld
+  }
 `;
 
 @Component({
