@@ -48,7 +48,7 @@ export class AppComponent {
       })
       .valueChanges
       .subscribe(result => {
-        this.todoItems = result.data.getTodos as Todo[];
+        this.todoItems = result.data.getTodos;
       });
   }
 
@@ -59,7 +59,7 @@ export class AppComponent {
         title
       }
     }).subscribe(result => {
-      this.todoItems = result.data.addTodo as Todo[];
+      this.todoItems = result.data.addTodo;
     })
   }
 
@@ -71,7 +71,7 @@ export class AppComponent {
         done
       }
     }).subscribe(result => {
-      this.todoItems = result.data.updateTodo as Todo[];
+      this.todoItems = result.data.updateTodo;
     })
   }
 }
