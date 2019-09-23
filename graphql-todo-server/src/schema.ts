@@ -6,10 +6,10 @@ import {IResolvers} from 'graphql-tools';
 
 export const resolvers: IResolvers = {
   Query: {
-    helloWorld(_: void, args: void): string {
+    helloWorld(): string {
       return `👋 Hello world! 👋`;
-    },
-  },
+    }
+  }
 };
 
 export const schema: GraphQLSchema = makeExecutableSchema({
