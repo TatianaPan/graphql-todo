@@ -1,0 +1,8 @@
+{
+  "schemaPath": "../graphql-todo-server/src/schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "default": "http://localhost:8080/graphql"
+    }
+  }
+}
