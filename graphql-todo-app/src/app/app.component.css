@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.add-todo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 80px 0 20px 0;
+}
+
+.add-todo-field {
+  flex-grow: 1;
+}
