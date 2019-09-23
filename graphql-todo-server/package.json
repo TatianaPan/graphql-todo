@@ -16,7 +16,8 @@
     "express": "^4.17.1",
     "graphql": "^14.5.7",
     "http": "0.0.0",
-    "ncp": "^2.0.0"
+    "ncp": "^2.0.0",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "@types/compression": "^1.0.1",
@@ -24,6 +25,7 @@
     "@types/graphql": "^14.5.0",
     "@types/graphql-depth-limit": "^1.1.2",
     "@types/node": "^12.7.5",
+    "@types/uuid": "^3.4.5",
     "graphql-depth-limit": "^1.1.0",
     "graphql-import": "^0.7.1",
     "graphql-import-node": "0.0.4",

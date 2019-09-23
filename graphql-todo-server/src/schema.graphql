@@ -1,3 +1,14 @@
 type Query {
-  helloWorld: String!
+  getTodos: [Todo!]!
+}
+
+type Mutation {
+  addTodo(title: String!, done: Boolean! = false): [Todo!]!
+  updateTodo(id: ID!, done: Boolean!): [Todo!]!
+}
+
+type Todo {
+  id: ID!
+  title: String!
+  done: Boolean!
 }

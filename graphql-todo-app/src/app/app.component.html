@@ -14,8 +14,10 @@
   </div>
   <mat-list #todoist class="todolist">
     <mat-list-item *ngFor="let todo of todoItems" class="list">
-      <mat-checkbox color='primary'>
-        {{ todo }}
+      <mat-checkbox color='primary' 
+                    [checked]="todo.done" 
+                    (change)="updateTodo(todo.id, !todo.done)">
+        {{ todo.title }}
       </mat-checkbox>
     </mat-list-item>
   </mat-list>
